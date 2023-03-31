@@ -53,6 +53,8 @@ batch_size = 16
 Define model
 ```python
 model = MTL_EEGNet(emotion_nb_classes=emotion_nb_classes, context_nb_classes=context_nb_classes, Chans=channels, Samples=samples)
+# model = MTL_ShallowConvNet(emotion_nb_classes=emotion_nb_classes, context_nb_classes=context_nb_classes, Chans=channels, Samples=samples)
+# model = MTL_DeepConvNet(emotion_nb_classes=emotion_nb_classes, context_nb_classes=context_nb_classes, Chans=channels, Samples=samples)
 ```
 
 Compile the model
