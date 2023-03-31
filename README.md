@@ -1,5 +1,7 @@
 The implementation was based on the original source code (https://github.com/vlawhern/arl-eegmodels).
 
+For the details of the implementation, please see our paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4341618.
+
 # MTL-EEGModels
 This is the implementation of MTL-CNNs for EEG signal classification with additional label information, using Keras and Tensorflow. 
 
